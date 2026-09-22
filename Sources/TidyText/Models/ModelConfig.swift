@@ -39,8 +39,8 @@ public struct ModelConfig: Identifiable, Codable, Equatable, Hashable {
             models.append(ModelConfig(
                 id: UUID(uuidString: "aaaaaaaa-1111-0000-0000-000000000001")!,
                 providerId: ds.id,
-                modelIdentifier: "deepseek-chat",
-                displayName: "DeepSeek V3 (推荐主用)",
+                modelIdentifier: "deepseek-flash",
+                displayName: "DeepSeek V4.1 Flash (推荐主用)",
                 isEnabled: true,
                 priority: priorityCounter,
                 temperature: 0.2

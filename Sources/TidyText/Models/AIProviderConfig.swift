@@ -32,7 +32,7 @@ public enum ProviderType: String, Codable, CaseIterable, Identifiable {
     public var defaultModels: [String] {
         switch self {
         case .deepseek:
-            return ["deepseek-chat", "deepseek-reasoner"]
+            return ["deepseek-flash", "deepseek-v4-pro", "deepseek-chat"]
         case .claude:
             return ["claude-3-7-sonnet-20250219", "claude-3-5-sonnet-20241022", "claude-3-5-haiku-20241022"]
         case .openai:
